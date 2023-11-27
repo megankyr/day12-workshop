@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Number Form</title>
 </head>
 <body>
-    <form action="/numbergenerator" method="get">
+    <form method="GET" action="/generatenumber">
         <h1>How many numbers do you wish to generate?</h1>
         <input type="number" id="quantity" name="quantity" min="1" max="30" required>
         <button type="submit">Generate</button>
